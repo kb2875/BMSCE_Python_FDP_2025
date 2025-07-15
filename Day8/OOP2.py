@@ -1,7 +1,7 @@
 #class with attributes
 #When there are attributes we need to create a constructor
 class student:
-    def __init__(self, name, USN):
+    def __init__(self, name, USN): #constructor
         self.name=name
         self.USN=USN
     def Display(self):
